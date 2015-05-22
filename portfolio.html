@@ -35,10 +35,16 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     </head>
 
+    <script>
+        $(window).load(function() {
+            $(".se-pre-con").delay(1000).fadeOut("slow");
+        });
+    </script>
     <body>
-
+        <div class="se-pre-con"></div>
         <!-- Top menu -->
 		<nav class="navbar" role="navigation">
 			<div class="container">
@@ -221,6 +227,7 @@
 		                		</div>
 	                		</div>
 		                </div>
+
 	                </div>
 	            </div>
 	        </div>
